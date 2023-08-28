@@ -49,3 +49,17 @@ header {
   color: #867772;
   font-size: 1.6rem;
 }
+
+/* !aside & main nav */
+
+aside {
+  margin-left: 2.3rem;
+}
+
+.aside-list-item a {
+  color: #737373;
+}
+
+.aside-list-item a:active {
+  color: white;
+}
