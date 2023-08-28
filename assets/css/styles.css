@@ -1,7 +1,51 @@
+@font-face {
+  font-family: WSans;
+  src: url("../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #2e2e2e;
+  font-family: WSans, Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* !header & contact links navigation (horizontal) */
+
+header {
+  height: 9.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3.9rem;
+}
+
+.logo {
+  height: 3.7rem;
+  width: 3.6rem;
+}
+
+.contact-list {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.contact-list-item a {
+  color: #867772;
+  font-size: 1.6rem;
 }
