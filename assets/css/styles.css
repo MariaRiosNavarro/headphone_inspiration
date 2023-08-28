@@ -121,23 +121,38 @@ aside {
 
 /* .intro-section */
 
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9.2rem;
+  position: absolute;
+  top: 12rem;
+  left: 5rem;
+}
+
 .intro-section p {
   width: 25rem;
   color: #ebccc2;
-  position: absolute;
+  /* position: absolute;
   top: 12rem;
-  left: 40rem;
+  left: 40rem; */
   font-size: 2.4rem;
-  padding-bottom: 9.2rem;
+  /* padding-bottom: 9.2rem; */
 }
 
-.description-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.intro-section img {
+  flex-shrink: 1;
+  max-width: 129rem;
 }
-.description-section img {
-  max-width: 126rem;
+
+/* description-article */
+
+/* .description-article {
+  background-color: red;
   position: relative;
-  top: -21.5rem;
-}
+  top: -11rem;
+  width: 70vw;
+  display: flex;
+} */
