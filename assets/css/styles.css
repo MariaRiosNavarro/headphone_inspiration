@@ -50,6 +50,11 @@ header {
   font-size: 1.6rem;
 }
 
+.contact-list-item a:hover {
+  color: rgba(255, 255, 255, 0.815);
+  text-decoration: underline rgba(255, 255, 255, 0.815);
+}
+
 /* !aside & main nav */
 
 aside {
@@ -61,6 +66,7 @@ aside {
 .aside-list-item a {
   color: #737373;
   font-size: 1.5rem;
+  z-index: 2;
 }
 
 .aside-list-item .selected-link {
@@ -80,7 +86,7 @@ aside {
   position: absolute;
   top: -0.58rem;
   left: -4.273rem;
-  z-index: 1;
+  z-index: 3;
   background-color: transparent;
 }
 
@@ -98,6 +104,7 @@ aside {
 }
 .circle {
   height: 1.5rem;
+  z-index: 2;
 }
 
 .decoration-line {
@@ -107,4 +114,30 @@ aside {
   position: relative;
   left: 0.68rem;
   background-color: yellow;
+  z-index: 2;
+}
+
+/* main */
+
+/* .intro-section */
+
+.intro-section p {
+  width: 25rem;
+  color: #ebccc2;
+  position: absolute;
+  top: 12rem;
+  left: 40rem;
+  font-size: 2.4rem;
+  padding-bottom: 9.2rem;
+}
+
+.description-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description-section img {
+  max-width: 119rem;
+  position: relative;
+  top: -21.5rem;
 }
