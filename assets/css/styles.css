@@ -58,8 +58,50 @@ aside {
 
 .aside-list-item a {
   color: #737373;
+  font-size: 1.5rem;
 }
 
-.aside-list-item a:active {
+.aside-list-item .selected-link {
   color: white;
+  position: relative;
+}
+
+/* white circle in selected menu*/
+
+.aside-list-item .selected-link::before {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  border: 0.3rem solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.58rem;
+  left: -4.273rem;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.aside-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list-item-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin: 0.5rem 0;
+}
+.circle {
+  height: 1.5rem;
+}
+
+.decoration-line {
+  height: 4.7rem;
+  width: 0.1rem;
+  border-left: 1px solid #737373;
+  position: relative;
+  left: 0.68rem;
+  background-color: yellow;
 }
