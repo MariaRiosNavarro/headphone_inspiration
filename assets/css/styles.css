@@ -42,11 +42,12 @@ header {
 
 .contact-list {
   display: flex;
-  gap: 1.8rem;
+  gap: 4.5rem;
 }
 
 .contact-list-item a {
   color: #867772;
+  font-weight: 200;
   font-size: 1.6rem;
 }
 
@@ -61,6 +62,8 @@ aside {
   margin-left: 2.3rem;
   margin-top: 6.5rem;
   width: 3rem;
+  position: fixed;
+  z-index: 2;
 }
 
 .aside-list-item a {
@@ -117,29 +120,28 @@ aside {
   z-index: 2;
 }
 
-/* main */
+/* #main */
 
-/* .intro-section */
+/*  !.intro-section */
 
 .intro-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 9.2rem;
+  gap: 7rem;
   position: absolute;
-  top: 12rem;
+  top: 10rem;
   left: 5rem;
 }
 
 .intro-section p {
-  width: 25rem;
+  width: 24rem;
   color: #ebccc2;
-  /* position: absolute;
-  top: 12rem;
-  left: 40rem; */
   font-size: 2.4rem;
-  /* padding-bottom: 9.2rem; */
+  position: relative;
+  left: -14rem;
+  font-weight: 200;
 }
 
 .intro-section img {
@@ -147,12 +149,40 @@ aside {
   max-width: 129rem;
 }
 
-/* description-article */
+/* .description-section*/
 
-/* .description-article {
-  background-color: red;
-  position: relative;
-  top: -11rem;
-  width: 70vw;
+.description-section {
   display: flex;
-} */
+  position: absolute;
+  top: 120rem;
+  right: auto;
+  width: 100%;
+  padding: 0 15vw;
+  margin: 0 auto;
+  gap: 6.5rem;
+}
+
+.description-section img,
+.description-section article {
+  width: 32vw;
+  padding-bottom: 11rem;
+}
+
+.description-section article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.description-headling {
+  font-size: 2.4rem;
+  color: #ebccc2;
+  font-weight: 400;
+}
+.description-text {
+  font-size: 1.6rem;
+  color: #737373;
+  font-weight: 200;
+  line-height: 24px;
+}
