@@ -17,6 +17,10 @@ html {
   font-family: WSans, Arial, Helvetica, sans-serif;
 }
 
+body {
+  max-width: 1440px;
+}
+
 ul {
   list-style: none;
 }
@@ -130,7 +134,7 @@ aside {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 7rem;
+  gap: 10rem;
   position: absolute;
   top: 10rem;
   left: 5rem;
@@ -323,3 +327,7 @@ video {
   font-weight: 200;
   line-height: 2.4rem;
 }
+
+/* * -----------------------------------------shop (shop.html) -----------------------*/
+
+/* * -----------------------------------------shop (contact.html) -----------------------*/
