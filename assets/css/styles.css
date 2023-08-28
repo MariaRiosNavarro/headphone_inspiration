@@ -154,7 +154,9 @@ aside {
 
 .intro-section img {
   flex-shrink: 1;
-  max-width: 129rem;
+  /* max-width: 129rem; */
+  width: 98%;
+  margin-right: 3.5rem;
 }
 
 /* !.description-section*/
@@ -162,7 +164,7 @@ aside {
 .description-section {
   display: flex;
   position: absolute;
-  top: 120rem;
+  top: 150rem;
   right: auto;
   width: 100%;
   padding: 0 15vw;
