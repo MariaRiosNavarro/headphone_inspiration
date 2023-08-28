@@ -376,7 +376,7 @@ video {
 
 .buy-button {
   border-radius: 0.3rem;
-  background: #ebccc2;
+  background-color: #ebccc2;
   color: #2e2e2e;
   text-align: center;
   font-size: 1.6rem;
@@ -384,4 +384,54 @@ video {
   padding: 1.3rem 3.1rem;
 }
 
-/* * -----------------------------------------shop (contact.html) -----------------------*/
+/* * -----------------------------------------contact (contact.html) -----------------------*/
+.forms-section {
+  background: url("../img/section-composition4.jpg") no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vw;
+  position: absolute;
+  top: 0;
+}
+
+.formular {
+  margin-bottom: 7rem;
+}
+
+form {
+  position: relative;
+  top: 17rem;
+  margin: 0 auto;
+  width: 33%;
+  padding: 3rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+form h2 {
+  color: #ebccc2;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+form label {
+  color: #a09e9e;
+  font-size: 1.6rem;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+  border-radius: 4px;
+  padding: 0.5rem;
+}
+
+.form-btn {
+  background-color: #ebccc2;
+  width: 100%;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  border-radius: 4px;
+}
