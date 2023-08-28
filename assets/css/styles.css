@@ -15,6 +15,7 @@ html {
   font-size: 62.5%;
   background-color: #2e2e2e;
   font-family: WSans, Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -194,7 +195,7 @@ aside {
   line-height: 24px;
 }
 
-/* * -----------------------------------------PAGE Lounger (lounger.html) & Page Experience (experience.html) -----------------------*/
+/* * -----------------------------------------PAGE Lounger (lounger.html) & Page Experience (experience.html), shop (shop.html) -----------------------*/
 
 .container {
   display: flex;
