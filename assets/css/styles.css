@@ -227,3 +227,105 @@ aside {
   font-weight: 300;
   line-height: 2.4rem;
 }
+
+/* * -----------------------------------------Inspiration (inspiration.html) -----------------------*/
+
+.intro-inspiration,
+.section-inspiration {
+  margin: 0 auto;
+  width: 60%;
+}
+video {
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.header-inspiration {
+  padding: 10rem 0;
+}
+
+/* intro-inspiration */
+.inspiration-sm-headling {
+  color: #ebccc2;
+  font-size: 1.9rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
+
+.inspiration-headling {
+  color: #ebccc2;
+  font-size: 4rem;
+  font-weight: 300;
+  padding-top: 1.4rem;
+  padding-bottom: 4.3rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.btn-container button {
+  color: #737373;
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 2.4rem;
+  padding: 0.2rem 1.6rem;
+  background-color: transparent;
+  border: 1px solid #737373;
+}
+
+.header-inspiration p {
+  color: #737373;
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 2.4rem;
+
+  padding-top: 1.8rem;
+}
+
+/* section-inspiration */
+
+.section-inspiration {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10rem;
+}
+
+.section-inspiration article {
+  display: flex;
+}
+
+.inspiration-alchemy img,
+.inspiration-architecture img {
+  width: 50%;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.sm-headling {
+  color: #ebccc2;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+.article-headling {
+  color: #ebccc2;
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding-top: 1.4rem;
+  padding-bottom: 1.8rem;
+}
+
+.article-text {
+  color: #737373;
+  font-size: 1.6rem;
+  font-weight: 200;
+  line-height: 2.4rem;
+}
