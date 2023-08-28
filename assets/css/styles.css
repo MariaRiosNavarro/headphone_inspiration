@@ -54,6 +54,8 @@ header {
 
 aside {
   margin-left: 2.3rem;
+  margin-top: 6.5rem;
+  width: 3rem;
 }
 
 .aside-list-item a {
@@ -92,6 +94,7 @@ aside {
   align-items: center;
   gap: 2rem;
   margin: 0.5rem 0;
+  width: 3rem;
 }
 .circle {
   height: 1.5rem;
