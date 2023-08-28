@@ -1,4 +1,4 @@
-# Headphone Inspiration Shop (Desktop) (not yet responsive)
+# Headphone Inspiration Shop (Big Desktop) (not yet responsive)
 
 # [Deployment](https://mariariosnavarro.github.io/headphone_inspiration/)
 
