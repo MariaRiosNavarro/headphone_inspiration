@@ -18,10 +18,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  /* max-width: 1440px; */
-}
-
 ul {
   list-style: none;
 }
@@ -132,15 +128,22 @@ aside {
 
 /*  !.intro-section */
 
+.main-container {
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  padding-bottom: 10rem;
+}
+
 .intro-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
-  position: absolute;
-  top: 10rem;
-  left: 5rem;
+  gap: 9.5rem;
 }
 
 .intro-section p {
@@ -154,32 +157,26 @@ aside {
 
 .intro-section img {
   flex-shrink: 1;
-  /* max-width: 129rem; */
-  width: 98%;
+  width: 93vw;
   margin-right: 3.5rem;
-  margin-bottom: 7rem;
 }
 
 /* !.description-section*/
 
 .description-section {
-  display: flex;
-  position: absolute;
-  top: 150rem;
-  right: auto;
-  width: 100%;
-  padding: 0 15vw;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 6.5rem;
 }
 
 .description-section img,
-.description-section article {
+.description-section .description-container {
   width: 32vw;
-  padding-bottom: 11rem;
 }
 
-.description-section article {
+.description-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
