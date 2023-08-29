@@ -18,10 +18,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  /* max-width: 1440px; */
-}
-
 ul {
   list-style: none;
 }
@@ -66,10 +62,11 @@ header {
 /* !aside & main nav */
 
 aside {
-  margin-left: 2.3rem;
-  margin-top: 6.5rem;
-  width: 3rem;
+  margin-top: -6.5rem;
   position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2%;
   z-index: 3;
 }
 
@@ -86,43 +83,36 @@ aside {
 
 /* ?white circle in selected menu*/
 
-.aside-list-item .selected-link::before {
-  content: "";
-  display: block;
-  width: 3rem;
-  height: 3rem;
-  border: 0.3rem solid white;
-  border-radius: 50%;
-  position: absolute;
-  top: -0.6rem;
-  left: -4.25rem;
-  z-index: 3;
-  background-color: transparent;
-}
-
 .aside-list-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .list-item-container {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin: 0.5rem 0;
-  width: 3rem;
+  width: 2.5rem;
 }
 .circle {
-  height: 1.5rem;
+  height: 2.5rem;
   z-index: 3;
+  padding: 0.5rem;
+}
+
+/* white circle with outline & class .activ */
+
+.list-item-container .activ {
+  outline: 3px solid white;
+  border-radius: 50%;
+  background-color: transparent;
 }
 
 .decoration-line {
-  height: 4.7rem;
-  width: 0.1rem;
-  border-left: 1px solid #737373;
-  position: relative;
-  left: 0.68rem;
+  height: 4rem;
+  width: 0.2rem;
+  background-color: #737373;
   z-index: 2;
 }
 
@@ -132,15 +122,22 @@ aside {
 
 /*  !.intro-section */
 
+.main-container {
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+  padding-bottom: 10rem;
+}
+
 .intro-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10rem;
-  position: absolute;
-  top: 10rem;
-  left: 5rem;
+  gap: 9.5rem;
 }
 
 .intro-section p {
@@ -154,32 +151,26 @@ aside {
 
 .intro-section img {
   flex-shrink: 1;
-  /* max-width: 129rem; */
-  width: 98%;
+  width: 93vw;
   margin-right: 3.5rem;
-  margin-bottom: 7rem;
 }
 
 /* !.description-section*/
 
 .description-section {
-  display: flex;
-  position: absolute;
-  top: 150rem;
-  right: auto;
-  width: 100%;
-  padding: 0 15vw;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 6.5rem;
 }
 
 .description-section img,
-.description-section article {
+.description-section .description-container {
   width: 32vw;
-  padding-bottom: 11rem;
 }
 
-.description-section article {
+.description-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
